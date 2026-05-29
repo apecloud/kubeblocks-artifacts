@@ -55,7 +55,7 @@ def annotate_panel(i):
 
     if i == 1:
         fit_text(draw, (665, 335, 905, 445), "03:00\n主库告警 x47", 38, 24, RED)
-        fit_text(draw, (190, 175, 505, 295), "……又是这个点。", 42, 24, ORANGE)
+        text(draw, (230, 230), "……又是这个点。", 38, ORANGE)
         text(draw, (55, 55), "①", 54, BLACK)
     elif i == 2:
         fit_text(draw, (145, 290, 430, 430), "默认题：\nstateless？", 40, 24, BLUE)
@@ -63,7 +63,7 @@ def annotate_panel(i):
         fit_text(draw, (1085, 310, 1350, 420), "我们有记忆！", 40, 24, RED)
         text(draw, (55, 55), "②", 54, BLACK)
     elif i == 3:
-        fit_text(draw, (930, 150, 1290, 265), "声明期望状态，\n流程我来编排。", 34, 22, BLUE)
+        text(draw, (965, 150), "声明期望状态，\n流程我来编排。", 34, BLUE)
         fit_text(draw, (640, 710, 960, 790), "……它怎么一点都不慌。", 34, 22, ORANGE)
         labels = ["备份", "恢复", "扩容", "故障切换"]
         boxes = [(1410, 315, 1570, 370), (1410, 435, 1570, 490), (1410, 560, 1570, 615), (1360, 680, 1570, 735)]
@@ -71,8 +71,8 @@ def annotate_panel(i):
             fit_text(draw, box, label, 28, 20, ORANGE)
         text(draw, (55, 55), "③", 54, BLACK)
     elif i == 4:
-        fit_text(draw, (80, 185, 540, 355), "昨晚那么大动静，\n是谁救的火？", 42, 24, BLACK)
-        fit_text(draw, (560, 245, 790, 365), "我……主要负责\n没添乱。", 30, 22, ORANGE)
+        text(draw, (140, 200), "昨晚那么大动静，\n是谁救的火？", 42, BLACK)
+        text(draw, (565, 265), "我……主要负责\n没添乱。", 34, ORANGE)
         fit_text(draw, (1190, 750, 1575, 855), "睡眠：6h\n历史新高", 38, 24, ORANGE)
         fit_text(draw, (1130, 625, 1350, 680), "正常运行", 32, 22, BLUE)
         text(draw, (55, 55), "④", 54, BLACK)

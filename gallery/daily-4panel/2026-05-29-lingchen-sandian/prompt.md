@@ -4,7 +4,9 @@
 
 16:9 horizontal Chinese Xiaohei-style comic panel illustration. Pure white background, minimalist black hand-drawn line art, slightly wobbly pen lines, lots of empty white space. Xiaohei is a small solid-black absurd creature with white dot eyes, thin legs and tiny arms, blank serious expression, serious and deadpan, not cute. Sparse red/orange/blue marks only. No realistic UI, no logos, no watermark, no gradients, no shadows, no paper texture, no PPT infographic.
 
-For text accuracy, each generated panel requested no readable text and left blank bubbles/signs/labels. Chinese was added afterward during local post-processing.
+For text accuracy, each generated panel requested no readable text. Chinese was added afterward during local post-processing.
+
+Series convention after v2 review: character dialogue and narration use unframed handwritten text. Keep borders only when the object itself is a screen, sign, label plate, or status plaque.
 
 ## Panel 1
 
