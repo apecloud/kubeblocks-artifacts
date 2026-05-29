@@ -54,27 +54,27 @@ def annotate_panel(i):
     draw = ImageDraw.Draw(img)
 
     if i == 1:
-        fit_text(draw, (665, 335, 905, 445), "03:00\n主库告警 x47", 38, 24, RED)
-        text(draw, (230, 230), "……又是这个点。", 38, ORANGE)
+        text(draw, (650, 475), "03:00\n主库告警 x47", 34, BLACK)
+        text(draw, (220, 270), "……又是这个点。", 38, BLACK)
         text(draw, (55, 55), "①", 54, BLACK)
     elif i == 2:
-        fit_text(draw, (145, 290, 430, 430), "默认题：\nstateless？", 40, 24, BLUE)
-        fit_text(draw, (650, 120, 990, 265), "我有 7 个脚本……\n和 0 小时\n睡眠。", 40, 24, ORANGE)
-        fit_text(draw, (1085, 310, 1350, 420), "我们有记忆！", 40, 24, RED)
+        text(draw, (150, 250), "默认题：stateless？", 36, BLACK)
+        text(draw, (690, 155), "我有 7 个脚本……\n和 0 小时睡眠。", 38, BLACK)
+        text(draw, (1110, 300), "我们有记忆！", 38, BLACK)
         text(draw, (55, 55), "②", 54, BLACK)
     elif i == 3:
-        text(draw, (965, 150), "声明期望状态，\n流程我来编排。", 34, BLUE)
-        fit_text(draw, (640, 710, 960, 790), "……它怎么一点都不慌。", 34, 22, ORANGE)
+        text(draw, (910, 155), "声明期望状态，\n流程我来编排。", 34, BLACK)
+        text(draw, (650, 735), "……它怎么一点都不慌。", 30, BLACK)
         labels = ["备份", "恢复", "扩容", "故障切换"]
-        boxes = [(1410, 315, 1570, 370), (1410, 435, 1570, 490), (1410, 560, 1570, 615), (1360, 680, 1570, 735)]
-        for label, box in zip(labels, boxes):
-            fit_text(draw, box, label, 28, 20, ORANGE)
+        positions = [(1425, 310), (1425, 430), (1425, 550), (1370, 670)]
+        for label, pos in zip(labels, positions):
+            text(draw, pos, label, 28, BLACK)
         text(draw, (55, 55), "③", 54, BLACK)
     elif i == 4:
         text(draw, (140, 200), "昨晚那么大动静，\n是谁救的火？", 42, BLACK)
-        text(draw, (565, 265), "我……主要负责\n没添乱。", 34, ORANGE)
-        fit_text(draw, (1190, 750, 1575, 855), "睡眠：6h\n历史新高", 38, 24, ORANGE)
-        fit_text(draw, (1130, 625, 1350, 680), "正常运行", 32, 22, BLUE)
+        text(draw, (560, 255), "我……主要负责\n没添乱。", 36, BLACK)
+        text(draw, (1190, 740), "睡眠：6h\n历史新高", 36, BLACK)
+        text(draw, (1130, 640), "正常运行", 30, BLACK)
         text(draw, (55, 55), "④", 54, BLACK)
 
     out = ROOT / f"panel-{i}.png"
@@ -91,7 +91,7 @@ def assemble(paths):
     canvas = Image.new("RGB", (w * 2 + gutter + margin * 2, h * 2 + gutter + margin * 2 + title_h), "white")
     draw = ImageDraw.Draw(canvas)
     text(draw, (margin, 36), "凌晨三点，数据库城市又响了", 54, BLACK)
-    text(draw, (margin, 96), "KubeBlocks 四格漫画试作 | 小黑 = SRE", 28, BLUE)
+    text(draw, (margin, 96), "KubeBlocks 四格漫画试作 | 小黑 = SRE", 28, BLACK)
     positions = [
         (margin, margin + title_h),
         (margin + w + gutter, margin + title_h),
