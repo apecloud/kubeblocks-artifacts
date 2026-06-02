@@ -99,7 +99,7 @@ def build_panel_3() -> Image.Image:
     draw_fit_text(draw, (575, 510, 705, 555), "备份", max_size=27, min_size=20)
     draw_fit_text(draw, (745, 810, 890, 855), "恢复", max_size=27, min_size=20)
     draw_fit_text(draw, (1130, 807, 1265, 852), "扩容", max_size=27, min_size=20)
-    draw_fit_text(draw, (1400, 730, 1535, 775), "切换", max_size=27, min_size=20)
+    draw_fit_text(draw, (1368, 728, 1565, 778), "故障切换", max_size=25, min_size=18)
 
     img.save(ROOT / "panel-3-v4-cn.png")
     return img
