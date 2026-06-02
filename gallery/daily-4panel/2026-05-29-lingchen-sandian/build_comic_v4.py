@@ -37,7 +37,7 @@ def main() -> None:
 
     margin = 42
     gutter = 36
-    title_h = 112
+    title_h = 92
     canvas = Image.new(
         "RGB",
         (width * 2 + gutter + margin * 2, height * 2 + gutter + margin * 2 + title_h),
@@ -46,7 +46,6 @@ def main() -> None:
     draw = ImageDraw.Draw(canvas)
 
     draw.text((margin, 34), "3 A.M., and the Database City Is Screaming Again", font=load_font(54), fill=BLACK)
-    draw.text((margin, 90), "Database City Ep1 | KubeBlocks comic v4", font=load_font(26), fill=BLACK)
 
     positions = [
         (margin, margin + title_h),

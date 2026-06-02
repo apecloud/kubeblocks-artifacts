@@ -4,6 +4,7 @@
 
 - `comic-v4.png`: original high-resolution 2x2 final image
 - `comic-v4-review.png`: scaled review version for chat and quick whole-strip QA
+- Public-facing final images keep the episode title only. Internal brand/version/meta text such as `KubeBlocks comic v4` must not appear in the artwork.
 
 ## Approved Panels
 
@@ -31,6 +32,7 @@
 
 - English comic text only.
 - Readable text is black by default.
+- Public-facing artwork keeps the episode title but excludes internal version numbers, product-name meta labels, and project tags.
 - No ordinary speech bubbles, dialogue balloons, caption cards, or normal text boxes.
 - Object-native text surfaces only: phone screen, robot sign, tower screen, sleep counter.
 - Color is limited to non-text alert/workflow/status accents.
