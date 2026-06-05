@@ -42,5 +42,6 @@
 - Chinese final artwork title: `99%`
 - No product watermark, brand logo, Kubernetes logo, KubeBlocks logo, or internal meta label appears in the final combined comic.
 - Panel order is 1 -> 2 -> 3 -> 4.
-- Chinese versions reuse the same deterministic source bases and local lettering.
+- Chinese versions reuse the same image-generated source bases and deterministic local lettering.
 - New readability workflow sample: one universal concept only; no narration fallback needed.
+- Re-rendered after visual QA: source bases use image generation rather than deterministic line-art placeholders, matching the Ep1-Ep5 quality bar.
