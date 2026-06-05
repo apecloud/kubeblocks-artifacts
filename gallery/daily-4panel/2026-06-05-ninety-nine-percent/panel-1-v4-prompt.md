@@ -1,3 +1,3 @@
 # Panel 1 v4 Prompt
 
-Xiaohei watches a large monitor showing a progress bar at 99%, hopeful and still. Locked text: EN `Almost there.` / CN `就快好了。`.
+Image-generated text-free base: Xiaohei watches a large monitor with a nearly full progress bar, hopeful and still. Locked local text: EN `Almost there.` / CN `就快好了。`; local progress text `99%`.

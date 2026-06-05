@@ -1,3 +1,3 @@
 # Panel 3 v4 Prompt
 
-The progress bar has reset to 0%; Xiaohei freezes with wide eyes. No dialogue. This is the silent reversal beat.
+Image-generated text-free base: the progress bar has reset to empty; Xiaohei freezes with wide eyes. No dialogue. Local progress text `0%`.
